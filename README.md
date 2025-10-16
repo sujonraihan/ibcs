@@ -7,10 +7,10 @@ This repository contains comprehensive training materials for Information Techno
 
 ### 📁 Backup/
 **CommVault Backup System Training**
-- **Module 1**: CommCell Configuration and Management
-- **Module 2**: Simpana Software Installation  
-- **Module 3**: Advanced Configurations
-- **Module 4**: CommCell Environment Maintenance
+- **Module 1**: [CommCell Configuration and Management](Backup/module1-commcell-configuration.md)
+- **Module 2**: [Simpana Software Installation](Backup/module2-simpana-installation.md)
+- **Module 3**: [Advanced Configurations](Backup/module3-advanced-configurations.md)
+- **Module 4**: [CommCell Environment Maintenance](Backup/module4-commcell-maintenance.md)
 
 **Description:** Complete training materials for CommVault backup systems, covering configuration, installation, advanced features, and maintenance.
 
@@ -21,19 +21,19 @@ This repository contains comprehensive training materials for Information Techno
 
 ### 📁 Linux/
 **Linux System Administration Training**
-- Linux Filesystem Tree
-- File Permissions
-- User Management
-- Group Management
-- Process Monitoring
-- System Monitoring
-- Network Configuration
-- Package Management
-- Filesystems and VFS
-- Disk Partitioning
-- LVM (Logical Volume Manager)
-- Firewalls
-- Troubleshooting
+- [Linux Filesystem Tree](Linux/linux-filesystem-tree.md)
+- [File Permissions](Linux/file-permissions.md)
+- [User Management](Linux/user-management.md)
+- [Group Management](Linux/group-management.md)
+- [Process Monitoring](Linux/process-monitoring.md)
+- [System Monitoring](Linux/system-monitoring.md)
+- [Network Configuration](Linux/network-configuration.md)
+- [Package Management](Linux/package-management.md)
+- [Filesystems and VFS](Linux/filesystems-vfs.md)
+- [Disk Partitioning](Linux/disk-partitioning.md)
+- [LVM (Logical Volume Manager)](Linux/lvm.md)
+- [Firewalls](Linux/firewalls.md)
+- [Troubleshooting](Linux/troubleshooting.md)
 
 **Description:** Comprehensive Linux system administration training covering all essential topics from basic concepts to advanced administration.
 
@@ -44,14 +44,14 @@ This repository contains comprehensive training materials for Information Techno
 
 ### 📁 Storage/
 **Dell EMC Storage Center Training**
-- **Module 1**: Storage Center Architecture
-- **Module 2**: Storage Center Hardware
-- **Module 3**: Storage Center Front-End Cabling
-- **Module 4**: Storage Center Administration
-- **Module 5**: Replay Manager
-- **Module 6**: Storage Center Management
-- **Module 7**: Enterprise Manager
-- **Module 8**: Replication and Disaster Recovery
+- **Module 1**: [Storage Center Architecture](Storage/module1-storage-center-architecture.md)
+- **Module 2**: [Storage Center Hardware](Storage/module2-storage-center-hardware.md)
+- **Module 3**: [Storage Center Front-End Cabling](Storage/module3-storage-center-front-end-cabling.md)
+- **Module 4**: [Storage Center Administration](Storage/module4-storage-center-administration.md)
+- **Module 5**: [Replay Manager](Storage/module5-replay-manager.md)
+- **Module 6**: [Storage Center Management](Storage/module6-storage-center-management.md)
+- **Module 7**: [Enterprise Manager](Storage/module7-enterprise-manager.md)
+- **Module 8**: [Replication and Disaster Recovery](Storage/module8-replication-disaster-recovery.md)
 
 **Description:** Enterprise storage system training covering Dell EMC Storage Center architecture, administration, and disaster recovery.
 

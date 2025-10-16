@@ -6,7 +6,7 @@ This directory contains comprehensive training materials for CommVault Backup Sy
 ## Training Modules
 
 ### Module 1: CommCell Configuration and Management
-**File:** `module1-commcell-configuration.md`
+**File:** [module1-commcell-configuration.md](module1-commcell-configuration.md)
 
 **Topics Covered:**
 - CommCell Configuration and Management
@@ -29,7 +29,7 @@ This directory contains comprehensive training materials for CommVault Backup Sy
 ---
 
 ### Module 2: Simpana Software Installation
-**File:** `module2-simpana-installation.md`
+**File:** [module2-simpana-installation.md](module2-simpana-installation.md)
 
 **Topics Covered:**
 - Installing Simpana Software
@@ -52,7 +52,7 @@ This directory contains comprehensive training materials for CommVault Backup Sy
 ---
 
 ### Module 3: Advanced Configurations
-**File:** `module3-advanced-configurations.md`
+**File:** [module3-advanced-configurations.md](module3-advanced-configurations.md)
 
 **Topics Covered:**
 - Configuring Encryption
@@ -75,7 +75,7 @@ This directory contains comprehensive training materials for CommVault Backup Sy
 ---
 
 ### Module 4: CommCell Environment Maintenance
-**File:** `module4-commcell-maintenance.md`
+**File:** [module4-commcell-maintenance.md](module4-commcell-maintenance.md)
 
 **Topics Covered:**
 - Understanding the Simpana Software Update Process

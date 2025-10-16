@@ -6,7 +6,7 @@ This directory contains comprehensive training materials for Dell EMC Storage Ce
 ## Training Modules
 
 ### Module 1: Storage Center Architecture
-**File:** `module1-storage-center-architecture.md`
+**File:** [module1-storage-center-architecture.md](module1-storage-center-architecture.md)
 
 **Description:** Comprehensive overview of Storage Center architecture, components, and system design. Covers the fundamental concepts of enterprise storage systems.
 
@@ -31,7 +31,7 @@ This directory contains comprehensive training materials for Dell EMC Storage Ce
 ---
 
 ### Module 2: Storage Center Hardware
-**File:** `module2-storage-center-hardware.md`
+**File:** [module2-storage-center-hardware.md](module2-storage-center-hardware.md)
 
 **Description:** Detailed coverage of Storage Center hardware components, specifications, and configuration. Covers controllers, drives, and expansion units.
 
@@ -57,7 +57,7 @@ This directory contains comprehensive training materials for Dell EMC Storage Ce
 ---
 
 ### Module 3: Storage Center Front-End Cabling
-**File:** `module3-storage-center-front-end-cabling.md`
+**File:** [module3-storage-center-front-end-cabling.md](module3-storage-center-front-end-cabling.md)
 
 **Description:** Guide to front-end cabling and connectivity for Storage Center systems. Covers network configuration, SAN connectivity, and best practices.
 
@@ -84,7 +84,7 @@ This directory contains comprehensive training materials for Dell EMC Storage Ce
 ---
 
 ### Module 4: Storage Center Administration
-**File:** `module4-storage-center-administration.md`
+**File:** [module4-storage-center-administration.md](module4-storage-center-administration.md)
 
 **Description:** Complete guide to Storage Center administration tasks, user management, and system configuration. Covers day-to-day administrative operations.
 
@@ -111,7 +111,7 @@ This directory contains comprehensive training materials for Dell EMC Storage Ce
 ---
 
 ### Module 5: Replay Manager
-**File:** `module5-replay-manager.md`
+**File:** [module5-replay-manager.md](module5-replay-manager.md)
 
 **Description:** Comprehensive guide to Replay Manager for data protection and recovery. Covers snapshot management, replication, and disaster recovery.
 
@@ -138,7 +138,7 @@ This directory contains comprehensive training materials for Dell EMC Storage Ce
 ---
 
 ### Module 6: Storage Center Management
-**File:** `module6-storage-center-management.md`
+**File:** [module6-storage-center-management.md](module6-storage-center-management.md)
 
 **Description:** Advanced Storage Center management techniques, monitoring, and optimization. Covers system monitoring, capacity planning, and performance tuning.
 
@@ -165,7 +165,7 @@ This directory contains comprehensive training materials for Dell EMC Storage Ce
 ---
 
 ### Module 7: Enterprise Manager
-**File:** `module7-enterprise-manager.md`
+**File:** [module7-enterprise-manager.md](module7-enterprise-manager.md)
 
 **Description:** Guide to Enterprise Manager for centralized storage management. Covers multi-system management, reporting, and enterprise-wide operations.
 
@@ -192,7 +192,7 @@ This directory contains comprehensive training materials for Dell EMC Storage Ce
 ---
 
 ### Module 8: Replication and Disaster Recovery
-**File:** `module8-replication-disaster-recovery.md`
+**File:** [module8-replication-disaster-recovery.md](module8-replication-disaster-recovery.md)
 
 **Description:** Comprehensive guide to replication and disaster recovery strategies. Covers synchronous and asynchronous replication, disaster recovery planning, and business continuity.
 

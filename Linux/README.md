@@ -6,7 +6,7 @@ This directory contains comprehensive training materials for Linux system admini
 ## Training Modules
 
 ### 1. Linux Filesystem Tree
-**File:** `linux-filesystem-tree.md`
+**File:** [linux-filesystem-tree.md](linux-filesystem-tree.md)
 
 **Description:** Understanding the Linux directory structure and filesystem hierarchy. Covers the standard directory layout, purpose of each directory, and navigation techniques.
 
@@ -23,7 +23,7 @@ This directory contains comprehensive training materials for Linux system admini
 ---
 
 ### 2. File Permissions
-**File:** `file-permissions.md`
+**File:** [file-permissions.md](file-permissions.md)
 
 **Description:** Comprehensive guide to Linux file permissions, ownership, and access control. Essential for system security and user management.
 
@@ -41,7 +41,7 @@ This directory contains comprehensive training materials for Linux system admini
 ---
 
 ### 3. User Management
-**File:** `user-management.md`
+**File:** [user-management.md](user-management.md)
 
 **Description:** Complete guide to managing users and groups in Linux systems. Covers user creation, modification, deletion, and group management.
 
@@ -59,7 +59,7 @@ This directory contains comprehensive training materials for Linux system admini
 ---
 
 ### 4. Group Management
-**File:** `group-management.md`
+**File:** [group-management.md](group-management.md)
 
 **Description:** Detailed coverage of Linux group management, including group creation, modification, and user assignment to groups.
 
@@ -77,7 +77,7 @@ This directory contains comprehensive training materials for Linux system admini
 ---
 
 ### 5. Process Monitoring
-**File:** `process-monitoring.md`
+**File:** [process-monitoring.md](process-monitoring.md)
 
 **Description:** Guide to monitoring and managing processes in Linux systems. Covers process identification, monitoring tools, and process management.
 
@@ -95,7 +95,7 @@ This directory contains comprehensive training materials for Linux system admini
 ---
 
 ### 6. System Monitoring
-**File:** `system-monitoring.md`
+**File:** [system-monitoring.md](system-monitoring.md)
 
 **Description:** Comprehensive system monitoring techniques and tools for Linux systems. Covers performance monitoring, resource utilization, and system health checks.
 
@@ -113,7 +113,7 @@ This directory contains comprehensive training materials for Linux system admini
 ---
 
 ### 7. Network Configuration
-**File:** `network-configuration.md`
+**File:** [network-configuration.md](network-configuration.md)
 
 **Description:** Complete guide to network configuration and management in Linux systems. Covers network interfaces, routing, and network troubleshooting.
 
@@ -131,7 +131,7 @@ This directory contains comprehensive training materials for Linux system admini
 ---
 
 ### 8. Package Management
-**File:** `package-management.md`
+**File:** [package-management.md](package-management.md)
 
 **Description:** Guide to package management in Linux systems. Covers different package managers, repository management, and software installation.
 
@@ -149,7 +149,7 @@ This directory contains comprehensive training materials for Linux system admini
 ---
 
 ### 9. Filesystems and VFS
-**File:** `filesystems-vfs.md`
+**File:** [filesystems-vfs.md](filesystems-vfs.md)
 
 **Description:** Understanding Linux filesystems and the Virtual File System (VFS). Covers different filesystem types, mounting, and filesystem management.
 
@@ -167,7 +167,7 @@ This directory contains comprehensive training materials for Linux system admini
 ---
 
 ### 10. Disk Partitioning
-**File:** `disk-partitioning.md`
+**File:** [disk-partitioning.md](disk-partitioning.md)
 
 **Description:** Comprehensive guide to disk partitioning in Linux systems. Covers partition types, creation, and management.
 
@@ -185,7 +185,7 @@ This directory contains comprehensive training materials for Linux system admini
 ---
 
 ### 11. LVM (Logical Volume Manager)
-**File:** `lvm.md`
+**File:** [lvm.md](lvm.md)
 
 **Description:** Complete guide to Logical Volume Manager (LVM) in Linux. Covers volume groups, logical volumes, and advanced LVM features.
 
@@ -203,7 +203,7 @@ This directory contains comprehensive training materials for Linux system admini
 ---
 
 ### 12. Firewalls
-**File:** `firewalls.md`
+**File:** [firewalls.md](firewalls.md)
 
 **Description:** Guide to firewall configuration and management in Linux systems. Covers iptables, firewalld, and UFW.
 
@@ -221,7 +221,7 @@ This directory contains comprehensive training materials for Linux system admini
 ---
 
 ### 13. Troubleshooting
-**File:** `troubleshooting.md`
+**File:** [troubleshooting.md](troubleshooting.md)
 
 **Description:** Comprehensive troubleshooting guide for Linux systems. Covers common issues, diagnostic tools, and problem resolution techniques.
 
