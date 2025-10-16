@@ -1,7 +1,7 @@
 # Backup System Training Modules
 
 ## Overview
-এই directory তে CommVault Backup System এর comprehensive training materials রয়েছে। এই training modules গুলো students কে CommVault backup system এর complete understanding প্রদান করে।
+This directory contains comprehensive training materials for CommVault Backup System. These training modules provide students with complete understanding of CommVault backup system.
 
 ## Training Modules
 
@@ -9,17 +9,17 @@
 **File:** `module1-commcell-configuration.md`
 
 **Topics Covered:**
-- CommCell Configuration এবং Management
-- Library এবং Media Options Configuration
-- Data Paths for secure এবং optimum use
-- Data retention configuration এবং rules
-- Creation, configuration, এবং association of policies
+- CommCell Configuration and Management
+- Library and Media Options Configuration
+- Data Paths for secure and optimum use
+- Data retention configuration and rules
+- Creation, configuration, and association of policies
 
 **Learning Objectives:**
 - CommCell architecture understanding
-- Library এবং media management
+- Library and media management
 - Data path optimization
-- Policy creation এবং management
+- Policy creation and management
 - Best practices implementation
 
 **Duration:** 8-10 hours
@@ -33,10 +33,10 @@
 
 **Topics Covered:**
 - Installing Simpana Software
-- Understanding Installation Options এবং Requirements
-- Sizing, Locating এবং Installing Components
-- Installation Methods এবং Best Practices
-- Common Installation Problems এবং Solutions
+- Understanding Installation Options and Requirements
+- Sizing, Locating and Installing Components
+- Installation Methods and Best Practices
+- Common Installation Problems and Solutions
 
 **Learning Objectives:**
 - System requirements understanding
@@ -57,7 +57,7 @@
 **Topics Covered:**
 - Configuring Encryption
 - Advanced Stream Management
-- Management এবং Library Configuration
+- Management and Library Configuration
 - Advanced Retention Design
 - Advanced Media Management Handling
 
@@ -69,7 +69,7 @@
 - Media management skills
 
 **Duration:** 10-12 hours
-**Prerequisites:** Module 1 এবং Module 2 completion
+**Prerequisites:** Module 1 and Module 2 completion
 **Target Audience:** Senior backup administrators, Advanced users
 
 ---
@@ -79,8 +79,8 @@
 
 **Topics Covered:**
 - Understanding the Simpana Software Update Process
-- Configuring এবং Managing Simpana Software এবং Update Caches
-- Understanding এবং Using CommVault Troubleshooting Tools
+- Configuring and Managing Simpana Software and Update Caches
+- Understanding and Using CommVault Troubleshooting Tools
 - Troubleshooting Methodology
 
 **Learning Objectives:**
@@ -91,7 +91,7 @@
 - Best practices implementation
 
 **Duration:** 8-10 hours
-**Prerequisites:** Module 1, 2, এবং 3 completion
+**Prerequisites:** Module 1, 2, and 3 completion
 **Target Audience:** Backup administrators, Maintenance engineers
 
 ---
@@ -136,7 +136,7 @@ Each module includes:
 - Expert guidance
 
 ### Blended Learning
-- Combination of self-paced এবং instructor-led
+- Combination of self-paced and instructor-led
 - Flexible scheduling
 - Personalized learning
 - Mentorship program
@@ -152,7 +152,7 @@ Each module includes:
 - Foundation certificate
 
 ### Intermediate Level
-- Module 1 এবং 2 completion
+- Module 1 and 2 completion
 - Intermediate assessment
 - Intermediate certificate
 
@@ -208,7 +208,7 @@ Each module includes:
 2. Prepare lab environments
 3. Customize content as needed
 4. Track student progress
-5. Provide guidance এবং support
+5. Provide guidance and support
 
 ### For Organizations
 1. Assess training needs
@@ -274,7 +274,7 @@ Each module includes:
 
 ## License
 
-This training material is provided under the CommVault Training License. Please refer to the license agreement for terms এবং conditions.
+This training material is provided under the CommVault Training License. Please refer to the license agreement for terms and conditions.
 
 ---
 
@@ -291,7 +291,7 @@ Special thanks to:
 
 ## Feedback
 
-We welcome your feedback on this training material. Please send your comments এবং suggestions to:
+We welcome your feedback on this training material. Please send your comments and suggestions to:
 - Email: training-feedback@commvault.com
 - Online: www.commvault.com/feedback
 - Community: community.commvault.com
@@ -300,7 +300,7 @@ We welcome your feedback on this training material. Please send your comments �
 
 ## Conclusion
 
-এই training modules CommVault Backup System এর comprehensive understanding প্রদান করে। Students এই materials ব্যবহার করে তারা production environment এ effectively কাজ করতে পারবে।
+These training modules provide comprehensive understanding of CommVault Backup System. Students can use these materials to work effectively in production environments.
 
 **Success Factors:**
 - Follow the learning path

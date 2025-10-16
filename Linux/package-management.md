@@ -2,7 +2,7 @@
 
 ## 📦 Overview
 
-Package Management Systems হল Linux সিস্টেমে সফটওয়্যার ইনস্টল, আপডেট, এবং রিমুভ করার জন্য ব্যবহৃত টুলস। বিভিন্ন Linux distribution বিভিন্ন package manager ব্যবহার করে।
+Package Management Systems are tools used for installing, updating, and removing software in Linux systems. Different Linux distributions use different package managers.
 
 ## 🎯 Package Manager Types
 
@@ -430,12 +430,12 @@ sudo yum clean all
 
 ## 🎯 Summary
 
-Package Management Systems হল Linux administration এর একটি গুরুত্বপূর্ণ অংশ। সঠিক package management এর মাধ্যমে:
+Package Management Systems are an important part of Linux administration. Through proper package management:
 
-- ✅ সফটওয়্যার ইনস্টলেশন এবং আপডেট
-- ✅ ডিপেন্ডেন্সি ম্যানেজমেন্ট
-- ✅ সিকিউরিটি আপডেট
-- ✅ সিস্টেম স্ট্যাবিলিটি
-- ✅ রিসোর্স অপ্টিমাইজেশন
+- ✅ Software installation and updates
+- ✅ Dependency management
+- ✅ Security updates
+- ✅ System stability
+- ✅ Resource optimization
 
-বিভিন্ন distribution এর জন্য বিভিন্ন package manager ব্যবহার করা হয়, কিন্তু মূল নীতিগুলো একই থাকে।
+Different package managers are used for different distributions, but the core principles remain the same.

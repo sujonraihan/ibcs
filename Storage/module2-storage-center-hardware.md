@@ -10,12 +10,12 @@
 ## Controller Components
 
 ### Storage Controller Overview
-Storage Controller হল Storage Center এর brain যা সব data processing এবং management operations handle করে।
+Storage Controller is the brain of Storage Center that handles all data processing and management operations.
 
 ### Controller Types:
 
 #### 1. SC4020 Controller
-**বৈশিষ্ট্য:**
+**Features:**
 - Entry-level controller
 - 2U form factor
 - Dual controller support
@@ -28,7 +28,7 @@ Storage Controller হল Storage Center এর brain যা সব data process
 - Ports: 4x 10GbE, 4x 1GbE
 
 #### 2. SC5020 Controller
-**বৈশিষ্ট্য:**
+**Features:**
 - Mid-range controller
 - 2U form factor
 - Enhanced performance
@@ -41,7 +41,7 @@ Storage Controller হল Storage Center এর brain যা সব data process
 - Ports: 8x 10GbE, 4x 1GbE
 
 #### 3. SC7020 Controller
-**বৈশিষ্ট্য:**
+**Features:**
 - High-end controller
 - 2U form factor
 - Maximum performance
@@ -94,7 +94,7 @@ Storage Controller হল Storage Center এর brain যা সব data process
 ### Storage Enclosure Types:
 
 #### 1. SC200 Enclosure
-**বৈশিষ্ট্য:**
+**Features:**
 - 2U form factor
 - 12 drive bays
 - SAS connectivity
@@ -107,7 +107,7 @@ Storage Controller হল Storage Center এর brain যা সব data process
 - Up to 12TB per drive
 
 #### 2. SC220 Enclosure
-**বৈশিষ্ট্য:**
+**Features:**
 - 2U form factor
 - 24 drive bays
 - SAS connectivity
@@ -120,7 +120,7 @@ Storage Controller হল Storage Center এর brain যা সব data process
 - Up to 12TB per drive
 
 #### 3. SC280 Enclosure
-**বৈশিষ্ট্য:**
+**Features:**
 - 2U form factor
 - 24 drive bays
 - SAS connectivity
@@ -324,7 +324,7 @@ Storage Controller হল Storage Center এর brain যা সব data process
 
 ## Summary
 
-Storage Center Hardware হল একটি comprehensive solution যা বিভিন্ন performance এবং capacity requirements meet করতে পারে। Proper hardware selection এবং configuration এর মাধ্যমে optimal performance achieve করা যায়।
+Storage Center Hardware is a comprehensive solution that can meet various performance and capacity requirements. Optimal performance can be achieved through proper hardware selection and configuration.
 
 **Key Takeaways:**
 - Choose appropriate controller based on requirements

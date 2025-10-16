@@ -2,7 +2,7 @@
 
 ## 📁 Overview
 
-Linux ফাইল সিস্টেম একটি হায়ারার্কিক্যাল স্ট্রাকচার যা একটি রুট ডিরেক্টরি (`/`) থেকে শুরু হয়। এই স্ট্রাকচার Filesystem Hierarchy Standard (FHS) অনুসরণ করে।
+The Linux filesystem is a hierarchical structure that starts from a root directory (`/`). This structure follows the Filesystem Hierarchy Standard (FHS).
 
 ## 🗂️ Root Directory Structure
 

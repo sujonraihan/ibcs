@@ -2,7 +2,7 @@
 
 ## 🔍 Overview
 
-Process Monitoring হল Linux সিস্টেমে চলমান প্রসেসগুলো ট্র্যাক, বিশ্লেষণ, এবং পরিচালনা করার প্রক্রিয়া। এটি system administration এর একটি গুরুত্বপূর্ণ অংশ।
+Process Monitoring is the process of tracking, analyzing, and managing running processes in Linux systems. It is an important part of system administration.
 
 ## 🎯 Process Monitoring Objectives
 
@@ -460,12 +460,12 @@ chrt -r -p 50 PID       # Set round-robin scheduling
 
 ## 🎯 Summary
 
-Process Monitoring হল Linux administration এর একটি গুরুত্বপূর্ণ অংশ যা:
+Process Monitoring is an important part of Linux administration that:
 
-- ✅ চলমান প্রসেস ট্র্যাক করে
-- ✅ রিসোর্স ব্যবহার মনিটর করে
-- ✅ পারফরমেন্স বিশ্লেষণ করে
-- ✅ সিকিউরিটি নিশ্চিত করে
-- ✅ সমস্যা শনাক্ত করে
+- ✅ Tracks running processes
+- ✅ Monitors resource usage
+- ✅ Analyzes performance
+- ✅ Ensures security
+- ✅ Identifies problems
 
-সঠিক process monitoring tools এবং techniques ব্যবহার করে একটি efficient এবং secure Linux system পরিচালনা করা যায়।
+With proper process monitoring tools and techniques, an efficient and secure Linux system can be managed.

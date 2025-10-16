@@ -2,7 +2,7 @@
 
 ## 💾 Overview
 
-Disk Partitioning হল storage device কে logical sections এ ভাগ করার প্রক্রিয়া। এটি data organization, security, এবং system management এর জন্য অত্যন্ত গুরুত্বপূর্ণ।
+Disk Partitioning is the process of dividing storage devices into logical sections. It is extremely important for data organization, security, and system management.
 
 ## 🎯 Partitioning Objectives
 
@@ -447,12 +447,12 @@ echo 256 > /sys/block/sda/queue/read_ahead_kb
 
 ## 🎯 Summary
 
-Disk Partitioning হল Linux system administration এর একটি গুরুত্বপূর্ণ অংশ যা:
+Disk Partitioning is an important part of Linux system administration that:
 
-- ✅ Data organization এবং management করে
-- ✅ Security এবং isolation প্রদান করে
-- ✅ Performance optimization করে
-- ✅ Backup এবং recovery সহজ করে
-- ✅ System administration সহজ করে
+- ✅ Organizes and manages data
+- ✅ Provides security and isolation
+- ✅ Optimizes performance
+- ✅ Simplifies backup and recovery
+- ✅ Simplifies system administration
 
-সঠিক partitioning strategy এবং tools ব্যবহার করে একটি efficient এবং reliable Linux system পরিচালনা করা যায়।
+With proper partitioning strategy and tools, an efficient and reliable Linux system can be managed.

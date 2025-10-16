@@ -11,7 +11,7 @@
 ## Remote Instant Replay
 
 ### Remote Instant Replay Overview
-Remote Instant Replay হল advanced replication technology যা remote sites এ data replication প্রদান করে।
+Remote Instant Replay is an advanced replication technology that provides data replication to remote sites.
 
 ### Remote Instant Replay Features:
 - **Remote Replication**: Cross-site data replication
@@ -22,7 +22,7 @@ Remote Instant Replay হল advanced replication technology যা remote sites
 ### Remote Instant Replay Types:
 
 #### 1. Synchronous Replication
-**বৈশিষ্ট্য:**
+**Features:**
 - Real-time replication
 - Zero data loss
 - High performance impact
@@ -35,7 +35,7 @@ create replication -source "SC_Primary" -target "SC_DR" -mode "synchronous" -lat
 ```
 
 #### 2. Asynchronous Replication
-**বৈশিষ্ট্য:**
+**Features:**
 - Delayed replication
 - Potential data loss
 - Low performance impact
@@ -48,7 +48,7 @@ create replication -source "SC_Primary" -target "SC_DR" -mode "asynchronous" -la
 ```
 
 #### 3. Semi-Synchronous Replication
-**বৈশিষ্ট্য:**
+**Features:**
 - Balanced replication
 - Minimal data loss
 - Moderate performance impact
@@ -101,7 +101,7 @@ create replication -source "SC_Primary" -target "SC_DR" -mode "semi-synchronous"
 ### Synchronous Replication
 
 #### Synchronous Replication Overview
-Synchronous replication হল real-time replication method যা immediate data consistency ensure করে।
+Synchronous replication is a real-time replication method that ensures immediate data consistency.
 
 #### Synchronous Replication Features:
 - **Real-time Replication**: Immediate data transfer
@@ -130,7 +130,7 @@ Synchronous replication হল real-time replication method যা immediate dat
 ### Asynchronous Replication
 
 #### Asynchronous Replication Overview
-Asynchronous replication হল delayed replication method যা performance optimization prioritize করে।
+Asynchronous replication is a delayed replication method that prioritizes performance optimization.
 
 #### Asynchronous Replication Features:
 - **Delayed Replication**: Time-delayed transfer
@@ -178,7 +178,7 @@ Asynchronous replication হল delayed replication method যা performance op
 ## Replication Configuration
 
 ### Replication Configuration Overview
-Replication Configuration হল comprehensive setup process যা optimal replication setup ensure করে।
+Replication Configuration is a comprehensive setup process that ensures optimal replication setup.
 
 ### Replication Configuration Steps:
 
@@ -222,7 +222,7 @@ configure replication -mode "asynchronous" -schedule "continuous" -compression "
 ### Replication Configuration Options:
 
 #### 1. Basic Configuration
-**বৈশিষ্ট্য:**
+**Features:**
 - Simple setup
 - Default settings
 - Basic functionality
@@ -235,7 +235,7 @@ create replication -name "Basic_Replication" -source "SC_Primary" -target "SC_DR
 ```
 
 #### 2. Advanced Configuration
-**বৈশিষ্ট্য:**
+**Features:**
 - Custom settings
 - Advanced features
 - Complex setup
@@ -249,7 +249,7 @@ configure replication -compression "enabled" -encryption "AES-256" -bandwidth "1
 ```
 
 #### 3. Enterprise Configuration
-**বৈশিষ্ট্য:**
+**Features:**
 - Enterprise features
 - High availability
 - Scalable setup
@@ -281,12 +281,12 @@ configure replication -clustering "enabled" -load-balancing "enabled" -monitorin
 ## Disaster Recovery Deployment
 
 ### Disaster Recovery Overview
-Disaster Recovery Deployment হল comprehensive disaster recovery strategy যা business continuity ensure করে।
+Disaster Recovery Deployment is a comprehensive disaster recovery strategy that ensures business continuity.
 
 ### Disaster Recovery Types:
 
 #### 1. Hot Standby
-**বৈশিষ্ট্য:**
+**Features:**
 - Immediate failover
 - Real-time replication
 - High cost
@@ -300,7 +300,7 @@ configure disaster-recovery -failover-time "30 seconds" -replication "synchronou
 ```
 
 #### 2. Warm Standby
-**বৈশিষ্ট্য:**
+**Features:**
 - Delayed failover
 - Periodic replication
 - Medium cost
@@ -314,7 +314,7 @@ configure disaster-recovery -failover-time "5 minutes" -replication "asynchronou
 ```
 
 #### 3. Cold Standby
-**বৈশিষ্ট্য:**
+**Features:**
 - Manual failover
 - Backup-based
 - Low cost
@@ -420,24 +420,24 @@ configure disaster-recovery -failover-time "1 hour" -replication "backup-based"
 ## Troubleshooting Common Issues
 
 ### 1. Replication Issues
-**লক্ষণ:** Replication not working
-**সমাধান:**
+**Symptoms:** Replication not working
+**Solutions:**
 - Check network connectivity
 - Verify configuration
 - Review replication logs
 - Test connectivity
 
 ### 2. Disaster Recovery Issues
-**লক্ষণ:** Disaster recovery not working
-**সমাধান:**
+**Symptoms:** Disaster recovery not working
+**Solutions:**
 - Check disaster recovery configuration
 - Verify failover procedures
 - Review recovery logs
 - Test failover procedures
 
 ### 3. Performance Issues
-**লক্ষণ:** Slow replication
-**সমাধান:**
+**Symptoms:** Slow replication
+**Solutions:**
 - Check network performance
 - Review configuration
 - Optimize settings
@@ -447,7 +447,7 @@ configure disaster-recovery -failover-time "1 hour" -replication "backup-based"
 
 ## Summary
 
-Replication & Disaster Recovery হল একটি critical aspect যা business continuity ensure করে। Proper configuration এবং deployment এর মাধ্যমে reliable disaster recovery achieve করা যায়।
+Replication & Disaster Recovery is a critical aspect that ensures business continuity. Reliable disaster recovery can be achieved through proper configuration and deployment.
 
 **Key Takeaways:**
 - Choose appropriate replication method

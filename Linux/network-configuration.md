@@ -2,7 +2,7 @@
 
 ## 🌐 Overview
 
-Network Devices এবং Configuration হল Linux system এ network connectivity, routing, এবং network services পরিচালনা করার প্রক্রিয়া। এটি system administration এর একটি গুরুত্বপূর্ণ অংশ।
+Network Devices and Configuration is the process of managing network connectivity, routing, and network services in Linux systems. It is an important part of system administration.
 
 ## 🎯 Network Configuration Objectives
 
@@ -453,12 +453,12 @@ sudo ip route add default via 192.168.1.1
 
 ## 🎯 Summary
 
-Network Devices এবং Configuration হল Linux system administration এর একটি গুরুত্বপূর্ণ অংশ যা:
+Network Devices and Configuration is an important part of Linux system administration that:
 
-- ✅ Network connectivity নিশ্চিত করে
-- ✅ IP configuration এবং routing পরিচালনা করে
-- ✅ Network services manage করে
-- ✅ Network security implement করে
-- ✅ Network performance monitor করে
+- ✅ Ensures network connectivity
+- ✅ Manages IP configuration and routing
+- ✅ Manages network services
+- ✅ Implements network security
+- ✅ Monitors network performance
 
-সঠিক network configuration এবং management practices ব্যবহার করে একটি reliable এবং secure network infrastructure তৈরি করা যায়।
+With proper network configuration and management practices, a reliable and secure network infrastructure can be created.

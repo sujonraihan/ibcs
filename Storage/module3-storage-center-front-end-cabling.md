@@ -11,7 +11,7 @@
 ## Legacy Mode
 
 ### Legacy Mode Overview
-Legacy Mode হল traditional storage connectivity approach যা physical port-based configuration ব্যবহার করে।
+Legacy Mode is a traditional storage connectivity approach that uses physical port-based configuration.
 
 ### Legacy Mode Characteristics:
 - **Physical Port Mapping**: Direct port-to-server mapping
@@ -22,7 +22,7 @@ Legacy Mode হল traditional storage connectivity approach যা physical por
 ### Legacy Mode Components:
 
 #### 1. Physical Ports
-**বৈশিষ্ট্য:**
+**Features:**
 - Dedicated physical ports
 - Fixed port assignments
 - Limited port sharing
@@ -76,7 +76,7 @@ Port 4: WWN 50:00:00:00:00:00:00:04 - Server D
 ## Virtual Port Mode
 
 ### Virtual Port Mode Overview
-Virtual Port Mode হল advanced connectivity approach যা logical port abstraction ব্যবহার করে।
+Virtual Port Mode is an advanced connectivity approach that uses logical port abstraction.
 
 ### Virtual Port Mode Characteristics:
 - **Logical Port Mapping**: Virtual port assignments
@@ -87,7 +87,7 @@ Virtual Port Mode হল advanced connectivity approach যা logical port abst
 ### Virtual Port Mode Components:
 
 #### 1. Virtual Ports
-**বৈশিষ্ট্য:**
+**Features:**
 - Logical port abstraction
 - Dynamic port assignments
 - Shared port resources
@@ -141,7 +141,7 @@ Virtual Port 4: WWN 50:00:00:00:00:00:00:04 - Server D
 ## Multipathing
 
 ### Multipathing Overview
-Multipathing হল redundancy এবং performance optimization technique যা multiple paths ব্যবহার করে।
+Multipathing is a redundancy and performance optimization technique that uses multiple paths.
 
 ### Multipathing Benefits:
 - **High Availability**: Path redundancy
@@ -152,7 +152,7 @@ Multipathing হল redundancy এবং performance optimization technique য�
 ### Multipathing Types:
 
 #### 1. Active-Passive Multipathing
-**বৈশিষ্ট্য:**
+**Features:**
 - Primary path active
 - Secondary path standby
 - Automatic failover
@@ -167,7 +167,7 @@ Failover: Automatic on primary failure
 ```
 
 #### 2. Active-Active Multipathing
-**বৈশিষ্ট্য:**
+**Features:**
 - Multiple paths active
 - Load balancing
 - Higher performance
@@ -185,7 +185,7 @@ Path 4: Controller B, Port 2 (Active)
 ### Multipathing Protocols:
 
 #### 1. MPIO (Microsoft Multipath I/O)
-**বৈশিষ্ট্য:**
+**Features:**
 - Windows-based
 - Built-in support
 - Easy configuration
@@ -199,7 +199,7 @@ New-MSDSMSupportedHW -VendorId "Dell" -ProductId "Storage Center"
 ```
 
 #### 2. DM-Multipath (Linux)
-**বৈশিষ্ট্য:**
+**Features:**
 - Linux-based
 - Kernel module
 - Advanced features
@@ -213,7 +213,7 @@ mpathconf --enable
 ```
 
 #### 3. Native Multipathing
-**বৈশিষ্ট্য:**
+**Features:**
 - OS-independent
 - Vendor-specific
 - Optimized performance
@@ -244,7 +244,7 @@ mpathconf --enable
 ## Fabric Zoning
 
 ### Fabric Zoning Overview
-Fabric Zoning হল security এবং management technique যা storage network segmentation করে।
+Fabric Zoning is a security and management technique that segments storage networks.
 
 ### Zoning Benefits:
 - **Security**: Isolated access
@@ -255,7 +255,7 @@ Fabric Zoning হল security এবং management technique যা storage netw
 ### Zoning Types:
 
 #### 1. Hard Zoning
-**বৈশিষ্ট্য:**
+**Features:**
 - Physical port-based
 - Hardware enforced
 - High security
@@ -270,7 +270,7 @@ Zone 3: Port 9-12 (Management)
 ```
 
 #### 2. Soft Zoning
-**বৈশিষ্ট্য:**
+**Features:**
 - WWN-based
 - Software enforced
 - Flexible configuration
@@ -355,7 +355,7 @@ Access: Read/Write, High Priority
 
 ## Summary
 
-Storage Center Front-End Cabling হল একটি critical aspect যা proper connectivity এবং performance ensure করে। Legacy Mode এবং Virtual Port Mode এর মধ্যে proper selection এবং multipathing configuration এর মাধ্যমে optimal performance achieve করা যায়।
+Storage Center Front-End Cabling is a critical aspect that ensures proper connectivity and performance. Optimal performance can be achieved through proper selection between Legacy Mode and Virtual Port Mode and multipathing configuration.
 
 **Key Takeaways:**
 - Choose appropriate connectivity mode based on requirements

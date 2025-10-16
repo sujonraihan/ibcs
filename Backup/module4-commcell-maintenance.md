@@ -1,12 +1,12 @@
 # Module 4: CommCell Environment Maintenance
 
 ## Overview
-এই মডিউলে CommCell Environment এর maintenance, troubleshooting, এবং update processes সম্পর্কে বিস্তারিত আলোচনা করা হবে। এখানে Simpana Software update process, cache management, troubleshooting tools, এবং methodology covered হবে।
+This module covers CommCell Environment maintenance, troubleshooting, and update processes in detail. Simpana Software update process, cache management, troubleshooting tools, and methodology are covered here.
 
 ## Learning Objectives
-এই মডিউল শেষে শিক্ষার্থীরা শিখবে:
+After completing this module, students will learn:
 - Simpana Software update process understanding
-- Simpana Software এবং update caches configuration & management
+- Simpana Software and update caches configuration & management
 - CommVault troubleshooting tools understanding & usage
 - Troubleshooting methodology mastery
 
@@ -15,10 +15,10 @@
 ## 1. Understanding the Simpana Software Update Process
 
 ### 1.1 Update Process Overview
-Simpana Software update process হল system maintenance এর critical component যা:
-- **Security Updates**: Security vulnerabilities fix
-- **Feature Updates**: New features এবং functionality
-- **Bug Fixes**: Known issues resolution
+Simpana Software update process is a critical component of system maintenance that:
+- **Security Updates**: Fix security vulnerabilities
+- **Feature Updates**: New features and functionality
+- **Bug Fixes**: Resolution of known issues
 - **Performance Improvements**: System performance optimization
 - **Compatibility Updates**: New platform support
 
@@ -183,7 +183,7 @@ User Feedback: User experience feedback
 ## 2. Configuring & Managing Simpana Software and Update Caches
 
 ### 2.1 Cache Management Overview
-Cache management হল system performance optimization এর critical component যা:
+Cache management is a critical component of system performance optimization that:
 - **Update Caches**: Software update caching
 - **Content Caches**: Content delivery optimization
 - **Metadata Caches**: Metadata performance
@@ -335,7 +335,7 @@ Cache Access: Access problems
 ## 3. Understanding & Using CommVault Troubleshooting Tools
 
 ### 3.1 Troubleshooting Tools Overview
-CommVault troubleshooting tools হল system diagnosis এবং problem resolution এর comprehensive toolkit যা:
+CommVault troubleshooting tools are a comprehensive toolkit for system diagnosis and problem resolution that:
 - **Diagnostic Tools**: System health diagnosis
 - **Monitoring Tools**: Real-time monitoring
 - **Analysis Tools**: Data analysis
@@ -738,24 +738,24 @@ Compliance Monitoring: Regulatory compliance
 ## 7. Assessment Questions
 
 ### Multiple Choice Questions
-1. Simpana Software update process এ কোন step প্রথমে করা হয়?
+1. What is the first step in the Simpana Software update process?
    a) Download updates
    b) System assessment
    c) Apply updates
    d) Restart services
 
-2. Cache management এর মূল উদ্দেশ্য কি?
+2. What is the main purpose of cache management?
    a) Storage optimization
    b) Performance improvement
    c) Cost reduction
-   d) সবগুলো
+   d) All of the above
 
 ### Practical Questions
-1. Complete update process implement করুন
-2. Cache management optimize করুন
-3. Troubleshooting tools ব্যবহার করুন
-4. Maintenance procedures implement করুন
-5. Documentation তৈরি করুন
+1. Implement complete update process
+2. Optimize cache management
+3. Use troubleshooting tools
+4. Implement maintenance procedures
+5. Create documentation
 
 ---
 
@@ -783,7 +783,7 @@ Compliance Monitoring: Regulatory compliance
 
 ## Conclusion
 
-এই মডিউলে CommCell Environment Maintenance এর সমস্ত গুরুত্বপূর্ণ aspects আলোচনা করা হয়েছে। শিক্ষার্থীরা এই knowledge ব্যবহার করে তারা system maintenance, troubleshooting, এবং update processes effectively manage করতে পারবে।
+This module has covered all important aspects of CommCell Environment Maintenance. Students can use this knowledge to effectively manage system maintenance, troubleshooting, and update processes.
 
 **Key Takeaways:**
 - Update process mastery
@@ -793,4 +793,4 @@ Compliance Monitoring: Regulatory compliance
 - Best practices implementation
 
 **Final Steps:**
-এই module series এর মাধ্যমে শিক্ষার্থীরা CommVault Backup System এর comprehensive understanding অর্জন করবে এবং production environment এ effectively কাজ করতে পারবে।
+Through this module series, students will gain comprehensive understanding of CommVault Backup System and be able to work effectively in production environments.

@@ -11,12 +11,12 @@
 ## Volume and Server Creation
 
 ### Volume Creation Overview
-Volume creation হল Storage Center এর fundamental operation যা logical storage units তৈরি করে।
+Volume creation is a fundamental operation of Storage Center that creates logical storage units.
 
 ### Volume Types:
 
 #### 1. Standard Volumes
-**বৈশিষ্ট্য:**
+**Features:**
 - Basic storage volumes
 - Single tier storage
 - Simple configuration
@@ -29,7 +29,7 @@ create volume -name "Production_Data" -size 100GB -tier "Tier1"
 ```
 
 #### 2. Thin Volumes
-**বৈশিষ্ট্য:**
+**Features:**
 - Space-efficient volumes
 - On-demand allocation
 - Cost optimization
@@ -42,7 +42,7 @@ create volume -name "Development_Data" -size 500GB -thin -tier "Tier2"
 ```
 
 #### 3. Thick Volumes
-**বৈশিষ্ট্য:**
+**Features:**
 - Pre-allocated volumes
 - Guaranteed space
 - Predictable performance
@@ -111,7 +111,7 @@ map volume "Development_Data" to server "App_Server_01" -lun 2
 ## Data Instant Replay
 
 ### Data Instant Replay Overview
-Data Instant Replay হল advanced snapshot technology যা point-in-time data protection প্রদান করে।
+Data Instant Replay is an advanced snapshot technology that provides point-in-time data protection.
 
 ### Instant Replay Features:
 - **Point-in-Time Snapshots**: Consistent data capture
@@ -122,7 +122,7 @@ Data Instant Replay হল advanced snapshot technology যা point-in-time dat
 ### Instant Replay Types:
 
 #### 1. Standard Snapshots
-**বৈশিষ্ট্য:**
+**Features:**
 - Basic point-in-time capture
 - Space efficient
 - Fast creation
@@ -135,7 +135,7 @@ create snapshot -volume "Production_Data" -name "Daily_Backup_$(date +%Y%m%d)"
 ```
 
 #### 2. Scheduled Snapshots
-**বৈশিষ্ট্য:**
+**Features:**
 - Automated snapshot creation
 - Configurable schedules
 - Retention policies
@@ -149,7 +149,7 @@ create snapshot -volume "Production_Data" -schedule "Daily_Snapshots"
 ```
 
 #### 3. Application-Consistent Snapshots
-**বৈশিষ্ট্য:**
+**Features:**
 - Application-aware snapshots
 - Consistent data state
 - Complex configuration
@@ -200,7 +200,7 @@ delete snapshot -volume "Production_Data" -snapshot "Old_Backup"
 ## Data Progression
 
 ### Data Progression Overview
-Data Progression হল automated data movement system যা performance এবং cost optimization করে।
+Data Progression is an automated data movement system that optimizes performance and cost.
 
 ### Data Progression Benefits:
 - **Cost Optimization**: Automatic tier movement
@@ -211,7 +211,7 @@ Data Progression হল automated data movement system যা performance এব
 ### Data Progression Types:
 
 #### 1. Automatic Progression
-**বৈশিষ্ট্য:**
+**Features:**
 - Policy-driven movement
 - Automated decisions
 - Performance-based
@@ -224,7 +224,7 @@ create progression-policy -name "Cost_Optimization" -tier "Tier3" -age "30 days"
 ```
 
 #### 2. Manual Progression
-**বৈশিষ্ট্য:**
+**Features:**
 - Administrator-controlled
 - Immediate movement
 - Specific targeting
@@ -237,7 +237,7 @@ move volume "Archive_Data" -tier "Tier3" -immediate
 ```
 
 #### 3. Scheduled Progression
-**বৈশিষ্ট্য:**
+**Features:**
 - Time-based movement
 - Predictable behavior
 - Batch operations
@@ -282,12 +282,12 @@ create progression-schedule -name "Weekly_Archive" -frequency "weekly" -tier "Ti
 ## Storage Profiles
 
 ### Storage Profiles Overview
-Storage Profiles হল predefined configurations যা consistent storage setup প্রদান করে।
+Storage Profiles are predefined configurations that provide consistent storage setup.
 
 ### Storage Profile Types:
 
 #### 1. Performance Profiles
-**বৈশিষ্ট্য:**
+**Features:**
 - High-performance configuration
 - SSD storage focus
 - Low latency
@@ -300,7 +300,7 @@ create profile -name "High_Performance" -tier "Tier1" -iops "10000" -latency "1m
 ```
 
 #### 2. Capacity Profiles
-**বৈশিষ্ট্য:**
+**Features:**
 - High-capacity configuration
 - SATA storage focus
 - Cost optimization
@@ -313,7 +313,7 @@ create profile -name "High_Capacity" -tier "Tier3" -size "10TB" -cost "low"
 ```
 
 #### 3. Balanced Profiles
-**বৈশিষ্ট্য:**
+**Features:**
 - Balanced configuration
 - Mixed storage tiers
 - Moderate performance
@@ -418,24 +418,24 @@ modify profile "Database_Profile" -iops "20000" -latency "0.5ms"
 ## Troubleshooting Common Issues
 
 ### 1. Volume Creation Issues
-**লক্ষণ:** Cannot create volumes
-**সমাধান:**
+**Symptoms:** Cannot create volumes
+**Solutions:**
 - Check available space
 - Verify permissions
 - Review configuration
 - Check system status
 
 ### 2. Snapshot Issues
-**লক্ষণ:** Snapshots failing
-**সমাধান:**
+**Symptoms:** Snapshots failing
+**Solutions:**
 - Check volume status
 - Verify snapshot space
 - Review retention policies
 - Check system resources
 
 ### 3. Progression Issues
-**লক্ষণ:** Data not progressing
-**সমাধান:**
+**Symptoms:** Data not progressing
+**Solutions:**
 - Check progression policies
 - Verify tier configuration
 - Review performance metrics
@@ -445,7 +445,7 @@ modify profile "Database_Profile" -iops "20000" -latency "0.5ms"
 
 ## Summary
 
-Storage Center Administration হল একটি comprehensive process যা proper planning, implementation, এবং management এর মাধ্যমে optimal storage performance ensure করে। Volume creation, snapshots, progression, এবং profiles এর proper configuration এর মাধ্যমে efficient storage management achieve করা যায়।
+Storage Center Administration is a comprehensive process that ensures optimal storage performance through proper planning, implementation, and management. Efficient storage management can be achieved through proper configuration of volume creation, snapshots, progression, and profiles.
 
 **Key Takeaways:**
 - Plan storage requirements carefully

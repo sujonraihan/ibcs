@@ -2,7 +2,7 @@
 
 ## 👤 Overview
 
-User Account Management হল Linux system এ user accounts তৈরি, পরিচালনা, এবং security নিশ্চিত করার প্রক্রিয়া। এটি system administration এর একটি গুরুত্বপূর্ণ অংশ।
+User Account Management is the process of creating, managing, and ensuring security of user accounts in Linux systems. It is an important part of system administration.
 
 ## 🎯 User Management Objectives
 
@@ -476,12 +476,12 @@ sudo chmod 700 /home/username
 
 ## 🎯 Summary
 
-User Account Management হল Linux system administration এর একটি গুরুত্বপূর্ণ অংশ যা:
+User Account Management is an important part of Linux system administration that:
 
-- ✅ User accounts তৈরি এবং পরিচালনা করে
-- ✅ Security policies implement করে
-- ✅ Access control নিশ্চিত করে
-- ✅ User activity monitor করে
-- ✅ System security maintain করে
+- ✅ Creates and manages user accounts
+- ✅ Implements security policies
+- ✅ Ensures access control
+- ✅ Monitors user activity
+- ✅ Maintains system security
 
-সঠিক user management practices এবং tools ব্যবহার করে একটি secure এবং efficient Linux system পরিচালনা করা যায়।
+With proper user management practices and tools, a secure and efficient Linux system can be managed.

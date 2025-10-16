@@ -2,7 +2,7 @@
 
 ## 🔍 Overview
 
-Basic Troubleshooting হল Linux system এ সমস্যা শনাক্ত, বিশ্লেষণ, এবং সমাধান করার প্রক্রিয়া। এটি system administration এর একটি গুরুত্বপূর্ণ দক্ষতা।
+Basic Troubleshooting is the process of identifying, analyzing, and resolving problems in Linux systems. It is an important skill in system administration.
 
 ## 🎯 Troubleshooting Objectives
 
@@ -477,12 +477,12 @@ sudo journalctl -u service_name      # Service logs
 
 ## 🎯 Summary
 
-Basic Troubleshooting হল Linux system administration এর একটি গুরুত্বপূর্ণ দক্ষতা যা:
+Basic Troubleshooting is an important skill in Linux system administration that:
 
-- ✅ System problems identify করে
-- ✅ Root cause analysis করে
-- ✅ Appropriate solutions implement করে
-- ✅ System recovery নিশ্চিত করে
-- ✅ Future problems prevent করে
+- ✅ Identifies system problems
+- ✅ Performs root cause analysis
+- ✅ Implements appropriate solutions
+- ✅ Ensures system recovery
+- ✅ Prevents future problems
 
-সঠিক troubleshooting methodology এবং tools ব্যবহার করে system issues efficiently resolve করা যায় এবং system stability maintain করা যায়।
+With proper troubleshooting methodology and tools, system issues can be efficiently resolved and system stability can be maintained.

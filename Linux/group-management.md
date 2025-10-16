@@ -2,7 +2,7 @@
 
 ## 👥 Overview
 
-Group Management হল Linux system এ user groups তৈরি, পরিচালনা, এবং security policies implement করার প্রক্রিয়া। এটি user access control এবং permissions management এর একটি গুরুত্বপূর্ণ অংশ।
+Group Management is the process of creating, managing, and implementing security policies for user groups in Linux systems. It is an important part of user access control and permissions management.
 
 ## 🎯 Group Management Objectives
 
@@ -377,12 +377,12 @@ gpasswd -A username groupname    # Set admin
 
 ## 🎯 Summary
 
-Group Management হল Linux system administration এর একটি গুরুত্বপূর্ণ অংশ যা:
+Group Management is an important part of Linux system administration that:
 
-- ✅ User groups তৈরি এবং পরিচালনা করে
-- ✅ Group-based permissions implement করে
-- ✅ Access control নিশ্চিত করে
-- ✅ Security policies maintain করে
-- ✅ Resource sharing সহজ করে
+- ✅ Creates and manages user groups
+- ✅ Implements group-based permissions
+- ✅ Ensures access control
+- ✅ Maintains security policies
+- ✅ Simplifies resource sharing
 
-সঠিক group management practices এবং tools ব্যবহার করে একটি secure এবং efficient Linux system পরিচালনা করা যায়।
+With proper group management practices and tools, a secure and efficient Linux system can be managed.

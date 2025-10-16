@@ -2,7 +2,7 @@
 
 ## 💾 Overview
 
-Linux Filesystems এবং Virtual File System (VFS) হল Linux operating system এর একটি গুরুত্বপূর্ণ অংশ যা file operations, storage management, এবং system performance নিয়ন্ত্রণ করে।
+Linux Filesystems and Virtual File System (VFS) are important parts of the Linux operating system that control file operations, storage management, and system performance.
 
 ## 🎯 Filesystem Concepts
 
@@ -367,12 +367,12 @@ sudo badblocks -v /dev/sda1
 
 ## 🎯 Summary
 
-Linux Filesystems এবং VFS হল Linux system এর একটি গুরুত্বপূর্ণ অংশ যা:
+Linux Filesystems and VFS are important parts of Linux systems that:
 
-- ✅ Data storage এবং retrieval নিশ্চিত করে
-- ✅ Performance optimization করে
-- ✅ Security এবং access control প্রদান করে
-- ✅ System stability নিশ্চিত করে
-- ✅ Advanced features যেমন snapshots, compression, encryption প্রদান করে
+- ✅ Ensure data storage and retrieval
+- ✅ Optimize performance
+- ✅ Provide security and access control
+- ✅ Ensure system stability
+- ✅ Provide advanced features like snapshots, compression, encryption
 
-সঠিক filesystem selection এবং configuration এর মাধ্যমে একটি efficient এবং reliable Linux system পরিচালনা করা যায়।
+With proper filesystem selection and configuration, an efficient and reliable Linux system can be managed.

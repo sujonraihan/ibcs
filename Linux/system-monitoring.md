@@ -2,7 +2,7 @@
 
 ## 📊 Overview
 
-System Monitoring হল Linux সিস্টেমের পারফরমেন্স, রিসোর্স ব্যবহার, এবং সিস্টেম হেলথ ট্র্যাক করার প্রক্রিয়া। এটি সিস্টেম অ্যাডমিনিস্ট্রেটরদের জন্য অত্যন্ত গুরুত্বপূর্ণ।
+System Monitoring is the process of tracking system performance, resource usage, and system health in Linux systems. It is extremely important for system administrators.
 
 ## 🎯 Monitoring Objectives
 
@@ -457,12 +457,12 @@ find /var/log -name "*.log" -exec ls -lh {} \; | sort -k5 -hr
 
 ## 🎯 Summary
 
-System Monitoring হল Linux administration এর একটি গুরুত্বপূর্ণ অংশ যা:
+System Monitoring is an important part of Linux administration that:
 
-- ✅ সিস্টেম পারফরমেন্স ট্র্যাক করে
-- ✅ রিসোর্স ব্যবহার মনিটর করে
-- ✅ সমস্যা শনাক্ত করে
-- ✅ সিকিউরিটি নিশ্চিত করে
-- ✅ ক্যাপাসিটি প্ল্যানিং করে
+- ✅ Tracks system performance
+- ✅ Monitors resource usage
+- ✅ Identifies problems
+- ✅ Ensures security
+- ✅ Plans capacity
 
-সঠিক monitoring tools এবং techniques ব্যবহার করে একটি stable এবং efficient Linux system পরিচালনা করা যায়।
+With proper monitoring tools and techniques, a stable and efficient Linux system can be managed.

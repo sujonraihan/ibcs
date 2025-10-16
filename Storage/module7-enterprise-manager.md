@@ -10,7 +10,7 @@
 ## Components and Requirements
 
 ### Enterprise Manager Overview
-Enterprise Manager হল centralized management platform যা multiple Storage Center systems এর unified management প্রদান করে।
+Enterprise Manager is a centralized management platform that provides unified management of multiple Storage Center systems.
 
 ### Enterprise Manager Features:
 - **Centralized Management**: Single point of control
@@ -21,7 +21,7 @@ Enterprise Manager হল centralized management platform যা multiple Storag
 ### Enterprise Manager Components:
 
 #### 1. Management Server
-**বৈশিষ্ট্য:**
+**Features:**
 - Central management node
 - Database server
 - Web interface host
@@ -34,7 +34,7 @@ Enterprise Manager হল centralized management platform যা multiple Storag
 - **Network**: 10GbE connectivity
 
 #### 2. Database Server
-**বৈশিষ্ট্য:**
+**Features:**
 - Configuration storage
 - Performance data
 - Historical records
@@ -47,7 +47,7 @@ Enterprise Manager হল centralized management platform যা multiple Storag
 - **High Availability**: Clustering support
 
 #### 3. Web Interface
-**বৈশিষ্ট্য:**
+**Features:**
 - Browser-based access
 - Real-time monitoring
 - Configuration management
@@ -60,7 +60,7 @@ Enterprise Manager হল centralized management platform যা multiple Storag
 - **Reporting**: Analytics and reports
 
 #### 4. API Server
-**বৈশিষ্ট্য:**
+**Features:**
 - REST API endpoints
 - Integration capabilities
 - Custom applications
@@ -158,7 +158,7 @@ register storage-center -name "SC_DR" -ip "10.2.1.100" -username "admin" -passwo
 ### Configuration Options:
 
 #### 1. Basic Configuration
-**বৈশিষ্ট্য:**
+**Features:**
 - Simple setup
 - Default settings
 - Basic functionality
@@ -171,7 +171,7 @@ configure enterprise-manager -mode "basic" -storage-centers "2" -users "10"
 ```
 
 #### 2. Advanced Configuration
-**বৈশিষ্ট্য:**
+**Features:**
 - Custom settings
 - Advanced features
 - Complex setup
@@ -184,7 +184,7 @@ configure enterprise-manager -mode "advanced" -storage-centers "5" -users "50" -
 ```
 
 #### 3. Enterprise Configuration
-**বৈশিষ্ট্য:**
+**Features:**
 - Enterprise features
 - High availability
 - Scalable setup
@@ -231,7 +231,7 @@ create user -name "viewer_user" -role "viewer" -email "viewer@company.com"
 ## Windows Space Recovery
 
 ### Windows Space Recovery Overview
-Windows Space Recovery হল advanced space management system যা Windows environments এর জন্য optimized space recovery প্রদান করে।
+Windows Space Recovery is an advanced space management system that provides optimized space recovery for Windows environments.
 
 ### Space Recovery Features:
 - **Automatic Recovery**: Automated space reclamation
@@ -242,7 +242,7 @@ Windows Space Recovery হল advanced space management system যা Windows en
 ### Space Recovery Types:
 
 #### 1. File System Recovery
-**বৈশিষ্ট্য:**
+**Features:**
 - File system optimization
 - Space reclamation
 - Defragmentation
@@ -255,7 +255,7 @@ configure space-recovery -type "filesystem" -schedule "weekly" -time "02:00"
 ```
 
 #### 2. Database Recovery
-**বৈশিষ্ট্য:**
+**Features:**
 - Database optimization
 - Space reclamation
 - Index maintenance
@@ -268,7 +268,7 @@ configure space-recovery -type "database" -schedule "daily" -time "01:00"
 ```
 
 #### 3. Application Recovery
-**বৈশিষ্ট্য:**
+**Features:**
 - Application optimization
 - Cache cleanup
 - Temporary file removal
@@ -362,24 +362,24 @@ configure space-recovery -type "application" -schedule "daily" -time "03:00"
 ## Troubleshooting Common Issues
 
 ### 1. Installation Issues
-**লক্ষণ:** Enterprise Manager installation fails
-**সমাধান:**
+**Symptoms:** Enterprise Manager installation fails
+**Solutions:**
 - Check system requirements
 - Verify network connectivity
 - Review installation logs
 - Check system resources
 
 ### 2. Configuration Issues
-**লক্ষণ:** Configuration not working
-**সমাধান:**
+**Symptoms:** Configuration not working
+**Solutions:**
 - Check configuration settings
 - Verify network connectivity
 - Review configuration logs
 - Test connectivity
 
 ### 3. Performance Issues
-**লক্ষণ:** Slow performance
-**সমাধান:**
+**Symptoms:** Slow performance
+**Solutions:**
 - Check system resources
 - Monitor network performance
 - Review configuration
@@ -389,7 +389,7 @@ configure space-recovery -type "application" -schedule "daily" -time "03:00"
 
 ## Summary
 
-Enterprise Manager হল একটি powerful centralized management platform যা multiple Storage Center systems এর unified management প্রদান করে। Proper configuration এবং setup এর মাধ্যমে efficient enterprise management achieve করা যায়।
+Enterprise Manager is a powerful centralized management platform that provides unified management of multiple Storage Center systems. Efficient enterprise management can be achieved through proper configuration and setup.
 
 **Key Takeaways:**
 - Plan enterprise requirements carefully

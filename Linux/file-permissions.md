@@ -2,7 +2,7 @@
 
 ## 🔐 Overview
 
-File Permissions এবং Ownership হল Linux system এ file access control এবং security নিশ্চিত করার প্রক্রিয়া। এটি system security এবং data protection এর একটি গুরুত্বপূর্ণ অংশ।
+File Permissions and Ownership is the process of ensuring file access control and security in Linux systems. It is an important part of system security and data protection.
 
 ## 🎯 Permission Concepts
 
@@ -353,12 +353,12 @@ chmod +t directory          # Sticky bit
 
 ## 🎯 Summary
 
-File Permissions এবং Ownership হল Linux system security এর একটি গুরুত্বপূর্ণ অংশ যা:
+File Permissions and Ownership is an important part of Linux system security that:
 
-- ✅ File access control নিশ্চিত করে
-- ✅ Security policies implement করে
-- ✅ Data protection প্রদান করে
-- ✅ System integrity maintain করে
-- ✅ User access management করে
+- ✅ Ensures file access control
+- ✅ Implements security policies
+- ✅ Provides data protection
+- ✅ Maintains system integrity
+- ✅ Manages user access
 
-সঠিক permission management practices এবং tools ব্যবহার করে একটি secure এবং efficient Linux system পরিচালনা করা যায়।
+With proper permission management practices and tools, a secure and efficient Linux system can be managed.

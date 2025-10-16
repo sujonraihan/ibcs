@@ -2,7 +2,7 @@
 
 ## 💾 Overview
 
-Logical Volume Management (LVM) হল Linux এ advanced storage management এর একটি powerful system যা flexible, scalable, এবং efficient storage solutions প্রদান করে।
+Logical Volume Management (LVM) is a powerful system for advanced storage management in Linux that provides flexible, scalable, and efficient storage solutions.
 
 ## 🎯 LVM Concepts
 
@@ -405,12 +405,12 @@ lvremove /dev/myvg/mylv        # Remove logical volume
 
 ## 🎯 Summary
 
-Logical Volume Management (LVM) হল Linux storage management এর একটি powerful tool যা:
+Logical Volume Management (LVM) is a powerful tool for Linux storage management that:
 
-- ✅ Flexible storage management প্রদান করে
-- ✅ Dynamic resizing capabilities প্রদান করে
-- ✅ Advanced features যেমন snapshots, striping, mirroring
-- ✅ Performance optimization করে
-- ✅ Data protection এবং backup সহজ করে
+- ✅ Provides flexible storage management
+- ✅ Provides dynamic resizing capabilities
+- ✅ Provides advanced features like snapshots, striping, mirroring
+- ✅ Optimizes performance
+- ✅ Simplifies data protection and backup
 
-LVM ব্যবহার করে একটি scalable, flexible, এবং efficient storage solution তৈরি করা যায় যা modern Linux systems এর জন্য ideal।
+Using LVM, a scalable, flexible, and efficient storage solution can be created that is ideal for modern Linux systems.

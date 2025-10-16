@@ -1,11 +1,11 @@
 # Module 3: Advanced Configurations
 
 ## Overview
-এই মডিউলে Simpana Software এর advanced configuration options সম্পর্কে বিস্তারিত আলোচনা করা হবে। এখানে encryption, advanced stream management, library configuration, retention design, এবং media management এর মতো জটিল topics covered হবে।
+This module covers advanced configuration options of Simpana Software in detail. Complex topics like encryption, advanced stream management, library configuration, retention design, and media management are covered here.
 
 ## Learning Objectives
-এই মডিউল শেষে শিক্ষার্থীরা শিখবে:
-- Encryption configuration এবং management
+After completing this module, students will learn:
+- Encryption configuration and management
 - Advanced stream management techniques
 - Library configuration optimization
 - Advanced retention design strategies
@@ -16,11 +16,11 @@
 ## 1. Configuring Encryption
 
 ### 1.1 Encryption Overview
-Encryption হল data security এর সবচেয়ে গুরুত্বপূর্ণ component যা:
-- **Data at Rest**: Storage এ থাকা data encrypt করে
-- **Data in Transit**: Network এ transfer হওয়া data encrypt করে
-- **Data in Use**: Processing এর সময় data protect করে
-- **Key Management**: Encryption keys securely manage করে
+Encryption is the most important component of data security that:
+- **Data at Rest**: Encrypts data stored in storage
+- **Data in Transit**: Protects data during network transfer
+- **Data in Use**: Protects data during processing
+- **Key Management**: Manages encryption keys securely
 
 ### 1.2 Encryption Types
 
@@ -55,9 +55,9 @@ Encryption হল data security এর সবচেয়ে গুরুত্�
 #### 1.3.1 Global Encryption Settings
 **Step 1: Enable Global Encryption**
 ```bash
-1. CommCell Console খুলুন
+1. Open CommCell Console
 2. Control Panel > Security
-3. Encryption tab নির্বাচন করুন
+3. Select Encryption tab
 4. Enable Global Encryption
 5. Select encryption algorithm
 6. Configure key management
@@ -75,8 +75,8 @@ Key Storage: Hardware Security Module (HSM)
 #### 1.3.2 Client-Side Encryption
 **Client Encryption Setup:**
 ```bash
-1. Client properties খুলুন
-2. Security tab নির্বাচন করুন
+1. Open client properties
+2. Select Security tab
 3. Enable Client Encryption
 4. Select encryption method
 5. Configure key management
@@ -166,7 +166,7 @@ Compliance: SOC 2, ISO 27001
 ## 2. Advanced Stream Management
 
 ### 2.1 Stream Management Overview
-Stream management হল backup performance optimization এর জন্য critical component যা:
+Stream management is a critical component for backup performance optimization that:
 - **Parallel Processing**: Multiple streams simultaneously
 - **Load Balancing**: Even distribution of workload
 - **Resource Optimization**: Efficient resource utilization
@@ -299,7 +299,7 @@ Capacity Planning: Growth projection
 ## 3. Management and Library Configuration
 
 ### 3.1 Library Management Overview
-Library management হল storage infrastructure এর efficient management যা:
+Library management is the efficient management of storage infrastructure that:
 - **Storage Provisioning**: Automatic storage allocation
 - **Capacity Management**: Storage utilization monitoring
 - **Performance Optimization**: Storage performance tuning
@@ -451,7 +451,7 @@ Disaster Recovery: Regular testing
 ## 4. Advanced Retention Design
 
 ### 4.1 Retention Strategy Overview
-Advanced retention design হল data lifecycle management এর comprehensive approach যা:
+Advanced retention design is a comprehensive approach to data lifecycle management that:
 - **Compliance Requirements**: Regulatory compliance
 - **Business Requirements**: Business continuity
 - **Cost Optimization**: Storage cost management
@@ -593,7 +593,7 @@ Audit Reports: Retention audit
 ## 5. Advanced Media Management Handling
 
 ### 5.1 Media Management Overview
-Advanced media management হল storage media এর comprehensive management যা:
+Advanced media management is comprehensive management of storage media that:
 - **Media Lifecycle**: Complete media lifecycle management
 - **Media Optimization**: Media performance optimization
 - **Media Security**: Media security and protection
@@ -904,24 +904,24 @@ Cost Reports: Storage costs
 ## 9. Assessment Questions
 
 ### Multiple Choice Questions
-1. AES-256 encryption এর key size কত?
+1. What is the key size for AES-256 encryption?
    a) 128 bits
    b) 256 bits
    c) 512 bits
    d) 1024 bits
 
-2. Stream count calculation এ কোন factor consider করা হয়?
+2. Which factors are considered in stream count calculation?
    a) CPU cores
    b) Memory
    c) Network bandwidth
-   d) সবগুলো
+   d) All of the above
 
 ### Practical Questions
-1. Advanced encryption configuration করুন
-2. Stream management optimize করুন
-3. Library configuration করুন
-4. Retention policies implement করুন
-5. Media management setup করুন
+1. Configure advanced encryption
+2. Optimize stream management
+3. Configure library
+4. Implement retention policies
+5. Set up media management
 
 ---
 
@@ -949,7 +949,7 @@ Cost Reports: Storage costs
 
 ## Conclusion
 
-এই মডিউলে Advanced Configurations এর সমস্ত গুরুত্বপূর্ণ aspects আলোচনা করা হয়েছে। শিক্ষার্থীরা এই knowledge ব্যবহার করে তারা complex configuration scenarios handle করতে পারবে।
+This module has covered all important aspects of Advanced Configurations. Students can use this knowledge to handle complex configuration scenarios.
 
 **Key Takeaways:**
 - Advanced encryption implementation
@@ -959,4 +959,4 @@ Cost Reports: Storage costs
 - Media management skills
 
 **Next Steps:**
-Module 4 এ CommCell Environment Maintenance এবং troubleshooting সম্পর্কে বিস্তারিত আলোচনা করা হবে।
+Module 4 will cover CommCell Environment Maintenance and troubleshooting in detail.

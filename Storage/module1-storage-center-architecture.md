@@ -9,21 +9,21 @@
 
 ## Functional Overview
 
-### Storage Center কি?
-Storage Center হল Dell EMC এর একটি enterprise-level storage solution যা high-performance, scalable, এবং reliable data storage প্রদান করে। এটি বিভিন্ন ধরনের workload এর জন্য optimized।
+### What is Storage Center?
+Storage Center is an enterprise-level storage solution from Dell EMC that provides high-performance, scalable, and reliable data storage. It is optimized for various types of workloads.
 
-### মূল বৈশিষ্ট্যসমূহ:
+### Key Features:
 - **High Availability**: 99.999% uptime guarantee
 - **Scalability**: Petabyte-level storage capacity
-- **Performance**: Low latency এবং high throughput
-- **Data Protection**: Built-in backup এবং replication capabilities
+- **Performance**: Low latency and high throughput
+- **Data Protection**: Built-in backup and replication capabilities
 - **Management**: Centralized management interface
 
 ### Core Components:
 1. **Storage Controllers**: Primary processing units
 2. **Storage Enclosures**: Physical disk housing
 3. **Management Software**: SCOS (Storage Center Operating System)
-4. **Network Interfaces**: Front-end এবং back-end connectivity
+4. **Network Interfaces**: Front-end and back-end connectivity
 
 ### Data Flow Architecture:
 ```
@@ -35,37 +35,37 @@ Application Servers → Front-end Network → Storage Controllers → Back-end N
 ## Deployment Architectures
 
 ### 1. Single Controller Architecture
-**বৈশিষ্ট্য:**
-- একটি controller node
+**Features:**
+- Single controller node
 - Cost-effective solution
 - Limited scalability
 - Single point of failure
 
-**ব্যবহারের ক্ষেত্র:**
+**Use Cases:**
 - Small to medium businesses
 - Development environments
 - Non-critical applications
 
 ### 2. Dual Controller Architecture
-**বৈশিষ্ট্য:**
+**Features:**
 - Two controller nodes
 - High availability
 - Active-passive configuration
 - Automatic failover
 
-**ব্যবহারের ক্ষেত্র:**
+**Use Cases:**
 - Production environments
 - Mission-critical applications
 - Medium to large enterprises
 
 ### 3. Multi-Controller Architecture
-**বৈশিষ্ট্য:**
+**Features:**
 - Multiple controller nodes
 - Maximum performance
 - Load distribution
 - Advanced clustering
 
-**ব্যবহারের ক্ষেত্র:**
+**Use Cases:**
 - Large enterprises
 - High-performance computing
 - Cloud service providers
@@ -95,26 +95,26 @@ Application Servers → Front-end Network → Storage Controllers → Back-end N
 ## User Interfaces
 
 ### 1. Storage Manager (Web-based Interface)
-**বৈশিষ্ট্য:**
+**Features:**
 - Browser-based access
 - Real-time monitoring
 - Configuration management
 - User-friendly interface
 
-**প্রধান ফিচার:**
+**Key Features:**
 - Dashboard view
 - Storage provisioning
 - Performance monitoring
 - Alert management
 
 ### 2. Command Line Interface (CLI)
-**বৈশিষ্ট্য:**
+**Features:**
 - Script-based automation
 - Advanced configuration
 - Batch operations
 - Remote management
 
-**প্রধান কমান্ড:**
+**Key Commands:**
 ```bash
 # Storage Center connection
 connect storagecenter -h <IP> -u <username>
@@ -127,7 +127,7 @@ register server -name "Server1" -wwn <WWN>
 ```
 
 ### 3. REST API
-**বৈশিষ্ট্য:**
+**Features:**
 - Programmatic access
 - Integration capabilities
 - Custom applications
@@ -141,7 +141,7 @@ GET /StorageCenter/ScVolume
 ```
 
 ### 4. SNMP Integration
-**বৈশিষ্ট্য:**
+**Features:**
 - Network monitoring
 - Alert integration
 - Third-party tools
@@ -189,24 +189,24 @@ GET /StorageCenter/ScVolume
 ## Troubleshooting Common Issues
 
 ### 1. Connection Problems
-**লক্ষণ:** Cannot connect to Storage Center
-**সমাধান:**
+**Symptoms:** Cannot connect to Storage Center
+**Solutions:**
 - Check network connectivity
 - Verify IP configuration
 - Check firewall settings
 - Validate credentials
 
 ### 2. Performance Issues
-**লক্ষণ:** Slow response times
-**সমাধান:**
+**Symptoms:** Slow response times
+**Solutions:**
 - Check disk utilization
 - Monitor network bandwidth
 - Review cache settings
 - Analyze workload patterns
 
 ### 3. Configuration Errors
-**লক্ষণ:** Storage not accessible
-**সমাধান:**
+**Symptoms:** Storage not accessible
+**Solutions:**
 - Verify zoning configuration
 - Check LUN masking
 - Review multipathing setup
@@ -216,7 +216,7 @@ GET /StorageCenter/ScVolume
 
 ## Summary
 
-Storage Center Architecture হল একটি comprehensive storage solution যা বিভিন্ন deployment scenarios এর জন্য flexible options প্রদান করে। Proper planning এবং implementation এর মাধ্যমে organizations তাদের storage requirements efficiently meet করতে পারে।
+Storage Center Architecture is a comprehensive storage solution that provides flexible options for various deployment scenarios. Through proper planning and implementation, organizations can efficiently meet their storage requirements.
 
 **Key Takeaways:**
 - Choose appropriate architecture based on requirements

@@ -10,12 +10,12 @@
 ## Monitoring Tools
 
 ### Monitoring Overview
-Storage Center Management হল comprehensive monitoring system যা real-time system health এবং performance tracking প্রদান করে।
+Storage Center Management is a comprehensive monitoring system that provides real-time system health and performance tracking.
 
 ### Monitoring Categories:
 
 #### 1. System Monitoring
-**বৈশিষ্ট্য:**
+**Features:**
 - Real-time system status
 - Performance metrics
 - Health indicators
@@ -28,7 +28,7 @@ Storage Center Management হল comprehensive monitoring system যা real-tim
 - **Storage I/O**: Disk operations
 
 #### 2. Storage Monitoring
-**বৈশিষ্ট্য:**
+**Features:**
 - Storage capacity tracking
 - Performance monitoring
 - Health status
@@ -41,7 +41,7 @@ Storage Center Management হল comprehensive monitoring system যা real-tim
 - **Latency**: Response time
 
 #### 3. Network Monitoring
-**বৈশিষ্ট্য:**
+**Features:**
 - Network connectivity
 - Bandwidth utilization
 - Error rates
@@ -56,7 +56,7 @@ Storage Center Management হল comprehensive monitoring system যা real-tim
 ### Monitoring Tools:
 
 #### 1. Storage Manager Dashboard
-**বৈশিষ্ট্য:**
+**Features:**
 - Web-based interface
 - Real-time monitoring
 - Graphical displays
@@ -69,7 +69,7 @@ Storage Center Management হল comprehensive monitoring system যা real-tim
 - **Quick Actions**: Common operations
 
 #### 2. Command Line Interface (CLI)
-**বৈশিষ্ট্য:**
+**Features:**
 - Script-based monitoring
 - Automated operations
 - Remote access
@@ -85,7 +85,7 @@ show network-status
 ```
 
 #### 3. SNMP Monitoring
-**বৈশিষ্ট্য:**
+**Features:**
 - Network monitoring
 - Third-party integration
 - Automated alerts
@@ -99,7 +99,7 @@ enable snmp-monitoring
 ```
 
 #### 4. REST API Monitoring
-**বৈশিষ্ট্য:**
+**Features:**
 - Programmatic access
 - Custom applications
 - Integration capabilities
@@ -138,12 +138,12 @@ GET /StorageCenter/ScPerformance
 ## Disk Drive Sparing
 
 ### Disk Drive Sparing Overview
-Disk Drive Sparing হল automatic replacement system যা failed drives এর জন্য spare drives provide করে।
+Disk Drive Sparing is an automatic replacement system that provides spare drives for failed drives.
 
 ### Spare Drive Types:
 
 #### 1. Global Spares
-**বৈশিষ্ট্য:**
+**Features:**
 - System-wide availability
 - Automatic assignment
 - High utilization
@@ -157,7 +157,7 @@ create global-spare -drive "Drive_002" -tier "Tier3"
 ```
 
 #### 2. Dedicated Spares
-**বৈশিষ্ট্য:**
+**Features:**
 - Specific enclosure assignment
 - Guaranteed availability
 - Lower utilization
@@ -171,7 +171,7 @@ create dedicated-spare -drive "Drive_004" -enclosure "Enclosure_002"
 ```
 
 #### 3. Hot Spares
-**বৈশিষ্ট্য:**
+**Features:**
 - Immediate availability
 - Automatic activation
 - High reliability
@@ -222,12 +222,12 @@ create hot-spare -drive "Drive_005" -tier "Tier1" -priority "high"
 ## Managing Users
 
 ### User Management Overview
-User Management হল access control system যা user authentication এবং authorization প্রদান করে।
+User Management is an access control system that provides user authentication and authorization.
 
 ### User Types:
 
 #### 1. Administrator Users
-**বৈশিষ্ট্য:**
+**Features:**
 - Full system access
 - All operations allowed
 - Configuration management
@@ -240,7 +240,7 @@ create user -name "admin_user" -role "administrator" -password "secure_password"
 ```
 
 #### 2. Operator Users
-**বৈশিষ্ট্য:**
+**Features:**
 - Limited system access
 - Operational tasks only
 - Monitoring capabilities
@@ -253,7 +253,7 @@ create user -name "operator_user" -role "operator" -password "secure_password"
 ```
 
 #### 3. Read-Only Users
-**বৈশিষ্ট্য:**
+**Features:**
 - View-only access
 - No configuration changes
 - Monitoring only
@@ -346,24 +346,24 @@ create user -name "readonly_user" -role "readonly" -password "secure_password"
 ## Troubleshooting Common Issues
 
 ### 1. Monitoring Issues
-**লক্ষণ:** Monitoring data not available
-**সমাধান:**
+**Symptoms:** Monitoring data not available
+**Solutions:**
 - Check monitoring configuration
 - Verify network connectivity
 - Review system resources
 - Check monitoring services
 
 ### 2. Spare Issues
-**লক্ষণ:** Spares not available
-**সমাধান:**
+**Symptoms:** Spares not available
+**Solutions:**
 - Check spare configuration
 - Verify drive status
 - Review spare allocation
 - Plan for replacement
 
 ### 3. User Issues
-**লক্ষণ:** User access problems
-**সমাধান:**
+**Symptoms:** User access problems
+**Solutions:**
 - Check user configuration
 - Verify authentication
 - Review permissions
@@ -373,7 +373,7 @@ create user -name "readonly_user" -role "readonly" -password "secure_password"
 
 ## Summary
 
-Storage Center Management হল একটি comprehensive system যা proper monitoring, spare management, এবং user management এর মাধ্যমে optimal system operation ensure করে।
+Storage Center Management is a comprehensive system that ensures optimal system operation through proper monitoring, spare management, and user management.
 
 **Key Takeaways:**
 - Implement comprehensive monitoring

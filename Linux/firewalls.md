@@ -2,7 +2,7 @@
 
 ## 🔥 Overview
 
-Firewalls হল Linux system এ network security এবং access control নিশ্চিত করার জন্য ব্যবহৃত security tools। এটি unauthorized access prevent করে এবং network traffic control করে।
+Firewalls are security tools used to ensure network security and access control in Linux systems. They prevent unauthorized access and control network traffic.
 
 ## 🎯 Firewall Objectives
 
@@ -456,12 +456,12 @@ sudo systemctl restart firewalld
 
 ## 🎯 Summary
 
-Firewalls হল Linux system security এর একটি গুরুত্বপূর্ণ অংশ যা:
+Firewalls are an important part of Linux system security that:
 
-- ✅ Network access control নিশ্চিত করে
-- ✅ Unauthorized access prevent করে
-- ✅ Network traffic filter করে
-- ✅ System security maintain করে
-- ✅ Network services protect করে
+- ✅ Ensures network access control
+- ✅ Prevents unauthorized access
+- ✅ Filters network traffic
+- ✅ Maintains system security
+- ✅ Protects network services
 
-সঠিক firewall configuration এবং management practices ব্যবহার করে একটি secure এবং protected network infrastructure তৈরি করা যায়।
+With proper firewall configuration and management practices, a secure and protected network infrastructure can be created.

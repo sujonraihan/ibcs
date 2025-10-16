@@ -1,23 +1,23 @@
 # Module 2: Simpana Software Installation
 
 ## Overview
-এই মডিউলে Simpana Software এর ইনস্টলেশন প্রক্রিয়া, প্রয়োজনীয়তা, এবং best practices সম্পর্কে বিস্তারিত আলোচনা করা হবে। Simpana হল CommVault Software এর মূল platform যা comprehensive data management solution প্রদান করে।
+This module covers the Simpana Software installation process, requirements, and best practices in detail. Simpana is the core platform of CommVault Software that provides comprehensive data management solution.
 
 ## Learning Objectives
-এই মডিউল শেষে শিক্ষার্থীরা শিখবে:
-- Simpana Software এর ইনস্টলেশন প্রক্রিয়া
-- Installation options এবং requirements
-- Component sizing, locating এবং installing
-- Installation methods এবং best practices
-- Common installation problems এবং solutions
+After completing this module, students will learn:
+- Simpana Software installation process
+- Installation options and requirements
+- Component sizing, locating and installing
+- Installation methods and best practices
+- Common installation problems and solutions
 
 ---
 
 ## 1. Understanding Simpana Software
 
 ### 1.1 What is Simpana Software?
-Simpana হল CommVault Software এর flagship product যা:
-- **Unified Data Management**: সমস্ত ধরনের ডেটা management
+Simpana is CommVault Software's flagship product that provides:
+- **Unified Data Management**: Management of all types of data
 - **Intelligent Data Services**: AI-powered data management
 - **Cloud-Native Architecture**: Modern cloud infrastructure support
 - **Enterprise-Grade Security**: Advanced security features
@@ -736,23 +736,23 @@ Solution:
 ## 9. Assessment Questions
 
 ### Multiple Choice Questions
-1. Simpana Software এর minimum RAM requirement কত?
+1. What is the minimum RAM requirement for Simpana Software?
    a) 4 GB
    b) 8 GB
    c) 16 GB
    d) 32 GB
 
-2. CommServe Server এর default port কোনটি?
+2. What is the default port for CommServe Server?
    a) 8400
    b) 8401
    c) 8402
    d) 8403
 
 ### Practical Questions
-1. একটি complete Simpana environment install করুন
-2. Common installation problems troubleshoot করুন
-3. Performance testing করুন
-4. Documentation তৈরি করুন
+1. Install a complete Simpana environment
+2. Troubleshoot common installation problems
+3. Perform performance testing
+4. Create documentation
 
 ---
 
@@ -780,7 +780,7 @@ Solution:
 
 ## Conclusion
 
-এই মডিউলে Simpana Software installation এর সমস্ত গুরুত্বপূর্ণ aspects আলোচনা করা হয়েছে। শিক্ষার্থীরা এই knowledge ব্যবহার করে তারা নিজেরাই Simpana environment install এবং configure করতে পারবে।
+This module has covered all important aspects of Simpana Software installation. Students can use this knowledge to install and configure Simpana environments themselves.
 
 **Key Takeaways:**
 - System requirements understanding
@@ -790,4 +790,4 @@ Solution:
 - Performance optimization
 
 **Next Steps:**
-Module 3 এ Advanced Configurations সম্পর্কে বিস্তারিত আলোচনা করা হবে।
+Module 3 will cover Advanced Configurations in detail.

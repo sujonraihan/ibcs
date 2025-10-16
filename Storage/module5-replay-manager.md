@@ -10,7 +10,7 @@
 ## Requirements and Config Options
 
 ### Replay Manager Overview
-Replay Manager হল advanced backup এবং recovery solution যা comprehensive data protection প্রদান করে।
+Replay Manager is an advanced backup and recovery solution that provides comprehensive data protection.
 
 ### Replay Manager Features:
 - **Automated Backups**: Scheduled backup operations
@@ -41,7 +41,7 @@ Replay Manager হল advanced backup এবং recovery solution যা compreh
 ### Configuration Options:
 
 #### 1. Basic Configuration
-**বৈশিষ্ট্য:**
+**Features:**
 - Simple setup
 - Default settings
 - Basic functionality
@@ -55,7 +55,7 @@ configure replay-manager -backup-path "/backup" -retention "7 days"
 ```
 
 #### 2. Advanced Configuration
-**বৈশিষ্ট্য:**
+**Features:**
 - Custom settings
 - Advanced features
 - Complex setup
@@ -69,7 +69,7 @@ configure replay-manager -backup-path "/backup" -retention "30 days" -compressio
 ```
 
 #### 3. Enterprise Configuration
-**বৈশিষ্ট্য:**
+**Features:**
 - Enterprise features
 - High availability
 - Scalable setup
@@ -107,7 +107,7 @@ configure replay-manager -backup-path "/backup" -retention "90 days" -encryption
 ## Transportable and Persistent Snapshots
 
 ### Transportable Snapshots Overview
-Transportable Snapshots হল portable backup format যা different storage systems এর মধ্যে data transfer করতে পারে।
+Transportable Snapshots are portable backup formats that can transfer data between different storage systems.
 
 ### Transportable Snapshot Features:
 - **Portability**: Cross-platform compatibility
@@ -118,7 +118,7 @@ Transportable Snapshots হল portable backup format যা different storage s
 ### Transportable Snapshot Types:
 
 #### 1. Full Snapshots
-**বৈশিষ্ট্য:**
+**Features:**
 - Complete data capture
 - Large size
 - High integrity
@@ -131,7 +131,7 @@ create transportable-snapshot -volume "Production_Data" -type "full" -destinatio
 ```
 
 #### 2. Incremental Snapshots
-**বৈশিষ্ট্য:**
+**Features:**
 - Changed data only
 - Small size
 - Fast transfer
@@ -144,7 +144,7 @@ create transportable-snapshot -volume "Production_Data" -type "incremental" -bas
 ```
 
 #### 3. Differential Snapshots
-**বৈশিষ্ট্য:**
+**Features:**
 - Changes since base
 - Medium size
 - Independent recovery
@@ -157,7 +157,7 @@ create transportable-snapshot -volume "Production_Data" -type "differential" -ba
 ```
 
 ### Persistent Snapshots Overview
-Persistent Snapshots হল long-term storage format যা extended retention periods support করে।
+Persistent Snapshots are long-term storage formats that support extended retention periods.
 
 ### Persistent Snapshot Features:
 - **Long-term Storage**: Extended retention
@@ -168,7 +168,7 @@ Persistent Snapshots হল long-term storage format যা extended retention p
 ### Persistent Snapshot Types:
 
 #### 1. Daily Snapshots
-**বৈশিষ্ট্য:**
+**Features:**
 - Daily capture
 - Short retention
 - Quick recovery
@@ -181,7 +181,7 @@ create persistent-snapshot -volume "Production_Data" -frequency "daily" -retenti
 ```
 
 #### 2. Weekly Snapshots
-**বৈশিষ্ট্য:**
+**Features:**
 - Weekly capture
 - Medium retention
 - Moderate recovery
@@ -194,7 +194,7 @@ create persistent-snapshot -volume "Production_Data" -frequency "weekly" -retent
 ```
 
 #### 3. Monthly Snapshots
-**বৈশিষ্ট্য:**
+**Features:**
 - Monthly capture
 - Long retention
 - Archive recovery
@@ -226,12 +226,12 @@ create persistent-snapshot -volume "Production_Data" -frequency "monthly" -reten
 ## Managing Backup Jobs
 
 ### Backup Job Overview
-Backup Jobs হল automated backup operations যা scheduled execution এবং management প্রদান করে।
+Backup Jobs are automated backup operations that provide scheduled execution and management.
 
 ### Backup Job Types:
 
 #### 1. Scheduled Jobs
-**বৈশিষ্ট্য:**
+**Features:**
 - Automated execution
 - Configurable schedules
 - Reliable operation
@@ -244,7 +244,7 @@ create backup-job -name "Daily_Production_Backup" -schedule "daily" -time "02:00
 ```
 
 #### 2. On-Demand Jobs
-**বৈশিষ্ট্য:**
+**Features:**
 - Manual execution
 - Immediate operation
 - Flexible timing
@@ -257,7 +257,7 @@ create backup-job -name "Pre_Update_Backup" -type "on-demand" -volume "Productio
 ```
 
 #### 3. Event-Driven Jobs
-**বৈশিষ্ট্য:**
+**Features:**
 - Trigger-based execution
 - Event response
 - Automated operation
@@ -382,7 +382,7 @@ modify backup-job -name "Daily_Production_Backup" -retention "14 days"
 
 ## Summary
 
-Replay Manager হল একটি powerful backup solution যা comprehensive data protection প্রদান করে। Proper configuration এবং management এর মাধ্যমে reliable backup operations ensure করা যায়।
+Replay Manager is a powerful backup solution that provides comprehensive data protection. Reliable backup operations can be ensured through proper configuration and management.
 
 **Key Takeaways:**
 - Plan backup requirements carefully
